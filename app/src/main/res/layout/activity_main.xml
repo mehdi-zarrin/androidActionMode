@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehdi.actionmodemenu.MainActivity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_main_username"
+            android:layout_marginBottom="8dp"
+            android:text="Dummy username"
+            style="@style/Base.Theme.AppCompat"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_main_password"
+            android:text="Dummy password"
+            style="@style/Base.Theme.AppCompat"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
